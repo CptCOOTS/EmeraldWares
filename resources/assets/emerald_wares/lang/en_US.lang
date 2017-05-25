@@ -1,0 +1,11 @@
+#Item
+
+item.emerald_wares:emerald_pickaxe.name=Emerald Pickaxe
+item.emerald_wares:emerald_shovel.name=Emerald Shovel
+item.emerald_wares:emerald_hoe.name=Emerald Hoe
+item.emerald_wares:emerald_axe.name=Emerald Axe
+item.emerald_wares:emerald_sword.name=Emerald Sword
+
+
+#Tabs
+itemGroup.emerald_wares:tab_emerald=Emerald Wares

@@ -1,0 +1,368 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "net\profmorin\emerald\ClientProxy.java" md5: 65e9f1f4743476c984748e3c8aba2ad5
+@|net\profmorin\emerald\ClientProxy.java|8|29|net.profmorin.emerald|package|net.profmorin.emerald|(file)
+Class Start: net.profmorin.emerald.ClientProxy
+   @|net\profmorin\emerald\ClientProxy.java|435|446|ClientProxy|class|net.profmorin.emerald.ClientProxy
+   @|net\profmorin\emerald\ClientProxy.java|455|466|CommonProxy|class|net.profmorin.emerald.CommonProxy
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|528|533|event|param|net.profmorin.emerald.ClientProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\ClientProxy.java|473|481|Override|class|java.lang.Override
+      @|net\profmorin\emerald\ClientProxy.java|494|501|PreInit|method|net.profmorin.emerald.CommonProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|502|527|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\profmorin\emerald\ClientProxy.java|547|554|PreInit|method|net.profmorin.emerald.CommonProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|555|560|event|param|net.profmorin.emerald.ClientProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|619|624|event|param|net.profmorin.emerald.ClientProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\ClientProxy.java|570|578|Override|class|java.lang.Override
+      @|net\profmorin\emerald\ClientProxy.java|591|595|Init|method|net.profmorin.emerald.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|596|618|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\profmorin\emerald\ClientProxy.java|639|643|Init|method|net.profmorin.emerald.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|644|649|event|param|net.profmorin.emerald.ClientProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\ClientProxy.java|657|672|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\profmorin\emerald\ClientProxy.java|682|691|Minecraft|class|net.minecraft.client.Minecraft
+      @|net\profmorin\emerald\ClientProxy.java|692|704|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\profmorin\emerald\ClientProxy.java|707|720|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|net\profmorin\emerald\ClientProxy.java|723|741|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|net\profmorin\emerald\ClientProxy.java|750|759|ModBlocks|class|net.profmorin.emerald.init.ModBlocks
+      @|net\profmorin\emerald\ClientProxy.java|760|770|initClient|method|net.profmorin.emerald.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\profmorin\emerald\ClientProxy.java|782|789|ModItem|class|net.profmorin.emerald.init.ModItem
+      @|net\profmorin\emerald\ClientProxy.java|790|800|initClient|method|net.profmorin.emerald.init.ModItem|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|874|879|event|param|net.profmorin.emerald.ClientProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\ClientProxy.java|817|825|Override|class|java.lang.Override
+      @|net\profmorin\emerald\ClientProxy.java|838|846|PostInit|method|net.profmorin.emerald.CommonProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|847|873|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\profmorin\emerald\ClientProxy.java|893|901|PostInit|method|net.profmorin.emerald.CommonProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\ClientProxy.java|902|907|event|param|net.profmorin.emerald.ClientProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.profmorin.emerald.ClientProxy
+endProcessing "net\profmorin\emerald\ClientProxy.java"
+
+startProcessing "net\profmorin\emerald\CommonProxy.java" md5: 6f02100c9a246e4fade3f788a34ba4a5
+@|net\profmorin\emerald\CommonProxy.java|8|29|net.profmorin.emerald|package|net.profmorin.emerald|(file)
+Class Start: net.profmorin.emerald.CommonProxy
+   @|net\profmorin\emerald\CommonProxy.java|342|353|CommonProxy|class|net.profmorin.emerald.CommonProxy
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\CommonProxy.java|404|409|event|param|net.profmorin.emerald.CommonProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\CommonProxy.java|370|377|PreInit|method|net.profmorin.emerald.CommonProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\CommonProxy.java|378|403|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\profmorin\emerald\CommonProxy.java|417|424|ModItem|class|net.profmorin.emerald.init.ModItem
+      @|net\profmorin\emerald\CommonProxy.java|425|429|init|method|net.profmorin.emerald.init.ModItem|init|()V
+      @|net\profmorin\emerald\CommonProxy.java|435|444|ModBlocks|class|net.profmorin.emerald.init.ModBlocks
+      @|net\profmorin\emerald\CommonProxy.java|445|449|init|method|net.profmorin.emerald.init.ModBlocks|init|()V
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\CommonProxy.java|499|504|event|param|net.profmorin.emerald.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\CommonProxy.java|471|475|Init|method|net.profmorin.emerald.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\CommonProxy.java|476|498|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\profmorin\emerald\CommonProxy.java|512|521|ModBlocks|class|net.profmorin.emerald.init.ModBlocks
+      @|net\profmorin\emerald\CommonProxy.java|522|533|initRecipes|method|net.profmorin.emerald.init.ModBlocks|initRecipes|()V
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\CommonProxy.java|591|596|event|param|net.profmorin.emerald.CommonProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\CommonProxy.java|555|563|PostInit|method|net.profmorin.emerald.CommonProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\CommonProxy.java|564|590|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.profmorin.emerald.CommonProxy
+endProcessing "net\profmorin\emerald\CommonProxy.java"
+
+startProcessing "net\profmorin\emerald\EmeraldWares.java" md5: d0a5b8cf70d5147b30786c3fddd126fc
+@|net\profmorin\emerald\EmeraldWares.java|8|29|net.profmorin.emerald|package|net.profmorin.emerald|(file)
+Class Start: net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|592|595|Mod|class|net.minecraftforge.fml.common.Mod
+   @|net\profmorin\emerald\EmeraldWares.java|596|601|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net\profmorin\emerald\EmeraldWares.java|604|616|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|617|623|MOD_ID|field|net.profmorin.emerald.EmeraldWares|MOD_ID
+   @|net\profmorin\emerald\EmeraldWares.java|625|629|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|net\profmorin\emerald\EmeraldWares.java|632|644|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|645|653|MOD_NAME|field|net.profmorin.emerald.EmeraldWares|MOD_NAME
+   @|net\profmorin\emerald\EmeraldWares.java|655|662|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net\profmorin\emerald\EmeraldWares.java|665|677|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|678|685|VERSION|field|net.profmorin.emerald.EmeraldWares|VERSION
+   @|net\profmorin\emerald\EmeraldWares.java|700|712|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|751|757|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|751|757|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|758|764|MOD_ID|field|net.profmorin.emerald.EmeraldWares|MOD_ID|
+   @|net\profmorin\emerald\EmeraldWares.java|805|811|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|805|811|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|812|820|MOD_NAME|field|net.profmorin.emerald.EmeraldWares|MOD_NAME|
+   @|net\profmorin\emerald\EmeraldWares.java|861|867|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|861|867|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|868|875|VERSION|field|net.profmorin.emerald.EmeraldWares|VERSION|
+   @|net\profmorin\emerald\EmeraldWares.java|912|918|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|912|918|String|class|java.lang.String
+   @|net\profmorin\emerald\EmeraldWares.java|919|934|RESOURCE_PREFIX|field|net.profmorin.emerald.EmeraldWares|RESOURCE_PREFIX|
+   @|net\profmorin\emerald\EmeraldWares.java|937|943|MOD_ID|field|net.profmorin.emerald.EmeraldWares|MOD_ID
+   @|net\profmorin\emerald\EmeraldWares.java|980|986|Random|class|java.util.Random
+   @|net\profmorin\emerald\EmeraldWares.java|980|986|Random|class|java.util.Random
+   @|net\profmorin\emerald\EmeraldWares.java|987|993|random|field|net.profmorin.emerald.EmeraldWares|random|
+   @|net\profmorin\emerald\EmeraldWares.java|1000|1006|Random|class|java.util.Random
+   @|net\profmorin\emerald\EmeraldWares.java|1045|1057|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|1014|1022|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|net\profmorin\emerald\EmeraldWares.java|1023|1029|MOD_ID|field|net.profmorin.emerald.EmeraldWares|MOD_ID
+   @|net\profmorin\emerald\EmeraldWares.java|1045|1057|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|1058|1066|instance|field|net.profmorin.emerald.EmeraldWares|instance|
+   @|net\profmorin\emerald\EmeraldWares.java|1198|1209|CommonProxy|class|net.profmorin.emerald.CommonProxy
+   @|net\profmorin\emerald\EmeraldWares.java|1072|1082|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|net\profmorin\emerald\EmeraldWares.java|1083|1093|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|net\profmorin\emerald\EmeraldWares.java|1133|1143|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|net\profmorin\emerald\EmeraldWares.java|1198|1209|CommonProxy|class|net.profmorin.emerald.CommonProxy
+   @|net\profmorin\emerald\EmeraldWares.java|1210|1215|proxy|field|net.profmorin.emerald.EmeraldWares|proxy|
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1280|1285|event|param|net.profmorin.emerald.EmeraldWares|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\EmeraldWares.java|1221|1233|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\profmorin\emerald\EmeraldWares.java|1246|1253|PreInit|method|net.profmorin.emerald.EmeraldWares|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1254|1279|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\profmorin\emerald\EmeraldWares.java|1294|1299|proxy|field|net.profmorin.emerald.EmeraldWares|proxy
+      @|net\profmorin\emerald\EmeraldWares.java|1300|1307|PreInit|method|net.profmorin.emerald.CommonProxy|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1308|1313|event|param|net.profmorin.emerald.EmeraldWares|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1376|1381|event|param|net.profmorin.emerald.EmeraldWares|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\EmeraldWares.java|1323|1335|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\profmorin\emerald\EmeraldWares.java|1348|1352|Init|method|net.profmorin.emerald.EmeraldWares|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1353|1375|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\profmorin\emerald\EmeraldWares.java|1390|1395|proxy|field|net.profmorin.emerald.EmeraldWares|proxy
+      @|net\profmorin\emerald\EmeraldWares.java|1396|1400|Init|method|net.profmorin.emerald.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1401|1406|event|param|net.profmorin.emerald.EmeraldWares|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1477|1482|event|param|net.profmorin.emerald.EmeraldWares|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\profmorin\emerald\EmeraldWares.java|1416|1428|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\profmorin\emerald\EmeraldWares.java|1441|1449|PostInit|method|net.profmorin.emerald.EmeraldWares|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1450|1476|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\profmorin\emerald\EmeraldWares.java|1490|1495|proxy|field|net.profmorin.emerald.EmeraldWares|proxy
+      @|net\profmorin\emerald\EmeraldWares.java|1496|1504|PostInit|method|net.profmorin.emerald.CommonProxy|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\profmorin\emerald\EmeraldWares.java|1505|1510|event|param|net.profmorin.emerald.EmeraldWares|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   @|net\profmorin\emerald\EmeraldWares.java|1533|1545|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|net\profmorin\emerald\EmeraldWares.java|1533|1545|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|net\profmorin\emerald\EmeraldWares.java|1546|1561|tabemeraldwares|field|net.profmorin.emerald.EmeraldWares|tabemeraldwares|
+   @|net\profmorin\emerald\EmeraldWares.java|1568|1580|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|net\profmorin\emerald\EmeraldWares.java|1581|1593|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+   @|net\profmorin\emerald\EmeraldWares.java|1594|1609|RESOURCE_PREFIX|field|net.profmorin.emerald.EmeraldWares|RESOURCE_PREFIX
+   Anon Class Start: net.profmorin.emerald.EmeraldWares$1
+      Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         @|net\profmorin\emerald\EmeraldWares.java|1630|1638|Override|class|java.lang.Override
+         @|net\profmorin\emerald\EmeraldWares.java|1646|1655|ItemStack|class|net.minecraft.item.ItemStack
+         @|net\profmorin\emerald\EmeraldWares.java|1656|1670|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+         @|net\profmorin\emerald\EmeraldWares.java|1694|1703|ItemStack|class|net.minecraft.item.ItemStack
+         @|net\profmorin\emerald\EmeraldWares.java|1704|1711|ModItem|class|net.profmorin.emerald.init.ModItem
+         @|net\profmorin\emerald\EmeraldWares.java|1712|1723|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem
+      Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+   Anon Class End: net.profmorin.emerald.EmeraldWares$1
+Class End  : net.profmorin.emerald.EmeraldWares
+endProcessing "net\profmorin\emerald\EmeraldWares.java"
+
+startProcessing "net\profmorin\emerald\block\BlockTutorial.java" md5: 89918532b3a40dcc36a302f81c8eb794
+@|net\profmorin\emerald\block\BlockTutorial.java|8|35|net.profmorin.emerald.block|package|net.profmorin.emerald.block|(file)
+Class Start: net.profmorin.emerald.block.BlockTutorial
+   @|net\profmorin\emerald\block\BlockTutorial.java|517|530|BlockTutorial|class|net.profmorin.emerald.block.BlockTutorial
+   @|net\profmorin\emerald\block\BlockTutorial.java|539|544|Block|class|net.minecraft.block.Block
+   Method Start: BlockTutorial()V
+      @|net\profmorin\emerald\block\BlockTutorial.java|556|569|BlockTutorial|method|net.profmorin.emerald.block.BlockTutorial|BlockTutorial|()V
+      @|net\profmorin\emerald\block\BlockTutorial.java|582|590|Material|class|net.minecraft.block.material.Material
+      @|net\profmorin\emerald\block\BlockTutorial.java|591|595|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|net\profmorin\emerald\block\BlockTutorial.java|642|653|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|net\profmorin\emerald\block\BlockTutorial.java|663|676|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|net\profmorin\emerald\block\BlockTutorial.java|687|699|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|net\profmorin\emerald\block\BlockTutorial.java|700|709|SoundType|class|net.minecraft.block.SoundType
+      @|net\profmorin\emerald\block\BlockTutorial.java|710|715|STONE|field|net.minecraft.block.SoundType|STONE
+      @|net\profmorin\emerald\block\BlockTutorial.java|720|735|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|net\profmorin\emerald\block\BlockTutorial.java|752|766|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\profmorin\emerald\block\BlockTutorial.java|767|779|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\block\BlockTutorial.java|780|795|tabemeraldwares|field|net.profmorin.emerald.EmeraldWares|tabemeraldwares
+   Method End: BlockTutorial()V
+   Method Start: addRecipes()V
+      @|net\profmorin\emerald\block\BlockTutorial.java|815|825|addRecipes|method|net.profmorin.emerald.block.BlockTutorial|addRecipes|()V
+      @|net\profmorin\emerald\block\BlockTutorial.java|835|847|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\profmorin\emerald\block\BlockTutorial.java|848|863|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\profmorin\emerald\block\BlockTutorial.java|868|877|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\profmorin\emerald\block\BlockTutorial.java|909|914|Items|class|net.minecraft.init.Items
+      @|net\profmorin\emerald\block\BlockTutorial.java|915|922|EMERALD|field|net.minecraft.init.Items|EMERALD
+      @|net\profmorin\emerald\block\BlockTutorial.java|931|940|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\profmorin\emerald\block\BlockTutorial.java|941|947|Blocks|class|net.minecraft.init.Blocks
+      @|net\profmorin\emerald\block\BlockTutorial.java|948|952|CLAY|field|net.minecraft.init.Blocks|CLAY
+      @|net\profmorin\emerald\block\BlockTutorial.java|955|968|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|net\profmorin\emerald\block\BlockTutorial.java|969|983|WILDCARD_VALUE|field|net.minecraftforge.oredict.OreDictionary|WILDCARD_VALUE
+   Method End: addRecipes()V
+   Method Start: getUnlocalizedName()Ljava/lang/String;
+      @|net\profmorin\emerald\block\BlockTutorial.java|992|1000|Override|class|java.lang.Override
+      @|net\profmorin\emerald\block\BlockTutorial.java|1008|1014|String|class|java.lang.String
+      @|net\profmorin\emerald\block\BlockTutorial.java|1015|1033|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|net\profmorin\emerald\block\BlockTutorial.java|1060|1072|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\block\BlockTutorial.java|1073|1088|RESOURCE_PREFIX|field|net.profmorin.emerald.EmeraldWares|RESOURCE_PREFIX
+      @|net\profmorin\emerald\block\BlockTutorial.java|1091|1096|Names|class|net.profmorin.emerald.lib.Names
+      @|net\profmorin\emerald\block\BlockTutorial.java|1097|1111|TUTORIAL_BLOCK|field|net.profmorin.emerald.lib.Names|TUTORIAL_BLOCK
+   Method End: getUnlocalizedName()Ljava/lang/String;
+Class End  : net.profmorin.emerald.block.BlockTutorial
+endProcessing "net\profmorin\emerald\block\BlockTutorial.java"
+
+startProcessing "net\profmorin\emerald\init\ModBlocks.java" md5: 35f99d2037b4db6d2e5bb9884fc904ef
+@|net\profmorin\emerald\init\ModBlocks.java|8|34|net.profmorin.emerald.init|package|net.profmorin.emerald.init|(file)
+Class Start: net.profmorin.emerald.init.ModBlocks
+   @|net\profmorin\emerald\init\ModBlocks.java|633|642|ModBlocks|class|net.profmorin.emerald.init.ModBlocks
+   @|net\profmorin\emerald\init\ModBlocks.java|661|674|BlockTutorial|class|net.profmorin.emerald.block.BlockTutorial
+   @|net\profmorin\emerald\init\ModBlocks.java|661|674|BlockTutorial|class|net.profmorin.emerald.block.BlockTutorial
+   @|net\profmorin\emerald\init\ModBlocks.java|675|688|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock|
+   Method Start: init()V
+      @|net\profmorin\emerald\init\ModBlocks.java|712|716|init|method|net.profmorin.emerald.init.ModBlocks|init|()V
+      @|net\profmorin\emerald\init\ModBlocks.java|726|742|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\profmorin\emerald\init\ModBlocks.java|758|774|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\profmorin\emerald\init\ModBlocks.java|775|787|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\init\ModBlocks.java|788|794|MOD_ID|field|net.profmorin.emerald.EmeraldWares|MOD_ID
+      @|net\profmorin\emerald\init\ModBlocks.java|795|800|Names|class|net.profmorin.emerald.lib.Names
+      @|net\profmorin\emerald\init\ModBlocks.java|801|815|TUTORIAL_BLOCK|field|net.profmorin.emerald.lib.Names|TUTORIAL_BLOCK
+      @|net\profmorin\emerald\init\ModBlocks.java|820|833|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock
+      @|net\profmorin\emerald\init\ModBlocks.java|840|853|BlockTutorial|class|net.profmorin.emerald.block.BlockTutorial
+      @|net\profmorin\emerald\init\ModBlocks.java|859|872|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock
+      @|net\profmorin\emerald\init\ModBlocks.java|873|888|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\profmorin\emerald\init\ModBlocks.java|902|914|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\profmorin\emerald\init\ModBlocks.java|915|923|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\profmorin\emerald\init\ModBlocks.java|924|937|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock
+      @|net\profmorin\emerald\init\ModBlocks.java|942|954|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\profmorin\emerald\init\ModBlocks.java|955|963|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\profmorin\emerald\init\ModBlocks.java|968|977|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|net\profmorin\emerald\init\ModBlocks.java|978|991|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock
+   Method End: init()V
+   Method Start: initRecipes()V
+      @|net\profmorin\emerald\init\ModBlocks.java|1029|1040|initRecipes|method|net.profmorin.emerald.init.ModBlocks|initRecipes|()V
+      @|net\profmorin\emerald\init\ModBlocks.java|1050|1063|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock
+      @|net\profmorin\emerald\init\ModBlocks.java|1064|1074|addRecipes|method|net.profmorin.emerald.block.BlockTutorial|addRecipes|()V
+   Method End: initRecipes()V
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\profmorin\emerald\init\ModBlocks.java|1153|1159|mesher|param|net.profmorin.emerald.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\profmorin\emerald\init\ModBlocks.java|1085|1093|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\profmorin\emerald\init\ModBlocks.java|1094|1098|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\profmorin\emerald\init\ModBlocks.java|1099|1105|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\profmorin\emerald\init\ModBlocks.java|1126|1136|initClient|method|net.profmorin.emerald.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\profmorin\emerald\init\ModBlocks.java|1137|1152|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\profmorin\emerald\init\ModBlocks.java|1168|1172|Item|class|net.minecraft.item.Item
+      @|net\profmorin\emerald\init\ModBlocks.java|1180|1184|Item|class|net.minecraft.item.Item
+      @|net\profmorin\emerald\init\ModBlocks.java|1185|1201|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|net\profmorin\emerald\init\ModBlocks.java|1202|1215|tutorialBlock|field|net.profmorin.emerald.init.ModBlocks|tutorialBlock
+      @|net\profmorin\emerald\init\ModBlocks.java|1220|1241|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\profmorin\emerald\init\ModBlocks.java|1254|1275|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\profmorin\emerald\init\ModBlocks.java|1276|1288|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\init\ModBlocks.java|1289|1304|RESOURCE_PREFIX|field|net.profmorin.emerald.EmeraldWares|RESOURCE_PREFIX
+      @|net\profmorin\emerald\init\ModBlocks.java|1307|1312|Names|class|net.profmorin.emerald.lib.Names
+      @|net\profmorin\emerald\init\ModBlocks.java|1313|1327|TUTORIAL_BLOCK|field|net.profmorin.emerald.lib.Names|TUTORIAL_BLOCK
+      @|net\profmorin\emerald\init\ModBlocks.java|1345|1356|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\profmorin\emerald\init\ModBlocks.java|1357|1377|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\profmorin\emerald\init\ModBlocks.java|1394|1400|mesher|param|net.profmorin.emerald.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\profmorin\emerald\init\ModBlocks.java|1401|1409|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : net.profmorin.emerald.init.ModBlocks
+endProcessing "net\profmorin\emerald\init\ModBlocks.java"
+
+startProcessing "net\profmorin\emerald\init\ModItem.java" md5: daeb0fa7ac1943f6750e596c5c64da54
+@|net\profmorin\emerald\init\ModItem.java|8|34|net.profmorin.emerald.init|package|net.profmorin.emerald.init|(file)
+Class Start: net.profmorin.emerald.init.ModItem
+   @|net\profmorin\emerald\init\ModItem.java|561|568|ModItem|class|net.profmorin.emerald.init.ModItem
+   @|net\profmorin\emerald\init\ModItem.java|587|598|ItemEmerald|class|net.profmorin.emerald.item.ItemEmerald
+   @|net\profmorin\emerald\init\ModItem.java|587|598|ItemEmerald|class|net.profmorin.emerald.item.ItemEmerald
+   @|net\profmorin\emerald\init\ModItem.java|599|610|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem|
+   Method Start: init()V
+      @|net\profmorin\emerald\init\ModItem.java|636|640|init|method|net.profmorin.emerald.init.ModItem|init|()V
+      @|net\profmorin\emerald\init\ModItem.java|650|661|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem
+      @|net\profmorin\emerald\init\ModItem.java|668|679|ItemEmerald|class|net.profmorin.emerald.item.ItemEmerald
+      @|net\profmorin\emerald\init\ModItem.java|685|696|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem
+      @|net\profmorin\emerald\init\ModItem.java|697|712|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\profmorin\emerald\init\ModItem.java|717|733|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\profmorin\emerald\init\ModItem.java|734|746|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\init\ModItem.java|747|753|MOD_ID|field|net.profmorin.emerald.EmeraldWares|MOD_ID
+      @|net\profmorin\emerald\init\ModItem.java|755|760|Names|class|net.profmorin.emerald.lib.Names
+      @|net\profmorin\emerald\init\ModItem.java|761|767|E_Item|field|net.profmorin.emerald.lib.Names|E_Item
+      @|net\profmorin\emerald\init\ModItem.java|773|785|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\profmorin\emerald\init\ModItem.java|786|794|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\profmorin\emerald\init\ModItem.java|795|806|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem
+   Method End: init()V
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\profmorin\emerald\init\ModItem.java|884|890|mesher|param|net.profmorin.emerald.init.ModItem|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\profmorin\emerald\init\ModItem.java|816|824|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\profmorin\emerald\init\ModItem.java|825|829|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\profmorin\emerald\init\ModItem.java|830|836|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\profmorin\emerald\init\ModItem.java|857|867|initClient|method|net.profmorin.emerald.init.ModItem|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\profmorin\emerald\init\ModItem.java|868|883|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\profmorin\emerald\init\ModItem.java|899|920|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\profmorin\emerald\init\ModItem.java|933|954|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\profmorin\emerald\init\ModItem.java|955|967|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\init\ModItem.java|968|983|RESOURCE_PREFIX|field|net.profmorin.emerald.EmeraldWares|RESOURCE_PREFIX
+      @|net\profmorin\emerald\init\ModItem.java|986|991|Names|class|net.profmorin.emerald.lib.Names
+      @|net\profmorin\emerald\init\ModItem.java|992|998|E_Item|field|net.profmorin.emerald.lib.Names|E_Item
+      @|net\profmorin\emerald\init\ModItem.java|1015|1026|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\profmorin\emerald\init\ModItem.java|1027|1047|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\profmorin\emerald\init\ModItem.java|1048|1059|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem
+      @|net\profmorin\emerald\init\ModItem.java|1071|1077|mesher|param|net.profmorin.emerald.init.ModItem|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\profmorin\emerald\init\ModItem.java|1078|1086|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net\profmorin\emerald\init\ModItem.java|1087|1098|emeraldItem|field|net.profmorin.emerald.init.ModItem|emeraldItem
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : net.profmorin.emerald.init.ModItem
+endProcessing "net\profmorin\emerald\init\ModItem.java"
+
+startProcessing "net\profmorin\emerald\item\ItemEmerald.java" md5: 4fa65aca93909d121997225b3809761c
+@|net\profmorin\emerald\item\ItemEmerald.java|8|34|net.profmorin.emerald.item|package|net.profmorin.emerald.item|(file)
+Class Start: net.profmorin.emerald.item.ItemEmerald
+   @|net\profmorin\emerald\item\ItemEmerald.java|414|425|ItemEmerald|class|net.profmorin.emerald.item.ItemEmerald
+   @|net\profmorin\emerald\item\ItemEmerald.java|434|438|Item|class|net.minecraft.item.Item
+   Method Start: ItemEmerald()V
+      @|net\profmorin\emerald\item\ItemEmerald.java|451|462|ItemEmerald|method|net.profmorin.emerald.item.ItemEmerald|ItemEmerald|()V
+      @|net\profmorin\emerald\item\ItemEmerald.java|472|487|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|net\profmorin\emerald\item\ItemEmerald.java|496|510|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\profmorin\emerald\item\ItemEmerald.java|511|523|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\item\ItemEmerald.java|524|539|tabemeraldwares|field|net.profmorin.emerald.EmeraldWares|tabemeraldwares
+   Method End: ItemEmerald()V
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|net\profmorin\emerald\item\ItemEmerald.java|613|620|worldIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|net\profmorin\emerald\item\ItemEmerald.java|635|643|playerIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|net\profmorin\emerald\item\ItemEmerald.java|654|660|handIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|net\profmorin\emerald\item\ItemEmerald.java|549|557|Override|class|java.lang.Override
+      @|net\profmorin\emerald\item\ItemEmerald.java|566|578|ActionResult|class|net.minecraft.util.ActionResult
+      @|net\profmorin\emerald\item\ItemEmerald.java|579|588|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\profmorin\emerald\item\ItemEmerald.java|590|606|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|net\profmorin\emerald\item\ItemEmerald.java|607|612|World|class|net.minecraft.world.World
+      @|net\profmorin\emerald\item\ItemEmerald.java|622|634|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\profmorin\emerald\item\ItemEmerald.java|645|653|EnumHand|class|net.minecraft.util.EnumHand
+      @|net\profmorin\emerald\item\ItemEmerald.java|673|680|worldIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|net\profmorin\emerald\item\ItemEmerald.java|681|689|isRemote|field|net.minecraft.world.World|isRemote
+      @|net\profmorin\emerald\item\ItemEmerald.java|694|702|playerIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|net\profmorin\emerald\item\ItemEmerald.java|703|714|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|net\profmorin\emerald\item\ItemEmerald.java|719|738|TextComponentString|class|net.minecraft.util.text.TextComponentString
+      @|net\profmorin\emerald\item\ItemEmerald.java|773|789|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|net\profmorin\emerald\item\ItemEmerald.java|790|797|worldIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|net\profmorin\emerald\item\ItemEmerald.java|799|807|playerIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|net\profmorin\emerald\item\ItemEmerald.java|809|815|handIn|param|net.profmorin.emerald.item.ItemEmerald|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Method Start: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\profmorin\emerald\item\ItemEmerald.java|877|882|stack|param|net.profmorin.emerald.item.ItemEmerald|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|net\profmorin\emerald\item\ItemEmerald.java|825|833|Override|class|java.lang.Override
+      @|net\profmorin\emerald\item\ItemEmerald.java|841|847|String|class|java.lang.String
+      @|net\profmorin\emerald\item\ItemEmerald.java|848|866|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\profmorin\emerald\item\ItemEmerald.java|867|876|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\profmorin\emerald\item\ItemEmerald.java|908|920|EmeraldWares|class|net.profmorin.emerald.EmeraldWares
+      @|net\profmorin\emerald\item\ItemEmerald.java|921|936|RESOURCE_PREFIX|field|net.profmorin.emerald.EmeraldWares|RESOURCE_PREFIX
+      @|net\profmorin\emerald\item\ItemEmerald.java|939|944|Names|class|net.profmorin.emerald.lib.Names
+      @|net\profmorin\emerald\item\ItemEmerald.java|945|951|E_Item|field|net.profmorin.emerald.lib.Names|E_Item
+   Method End: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+Class End  : net.profmorin.emerald.item.ItemEmerald
+endProcessing "net\profmorin\emerald\item\ItemEmerald.java"
+
+startProcessing "net\profmorin\emerald\lib\Names.java" md5: 896d705ee69d03280e9b71f14d80f262
+@|net\profmorin\emerald\lib\Names.java|8|33|net.profmorin.emerald.lib|package|net.profmorin.emerald.lib|(file)
+Class Start: net.profmorin.emerald.lib.Names
+   @|net\profmorin\emerald\lib\Names.java|49|54|Names|class|net.profmorin.emerald.lib.Names
+   @|net\profmorin\emerald\lib\Names.java|100|106|String|class|java.lang.String
+   @|net\profmorin\emerald\lib\Names.java|100|106|String|class|java.lang.String
+   @|net\profmorin\emerald\lib\Names.java|107|116|E_Pickaxe|field|net.profmorin.emerald.lib.Names|E_Pickaxe|
+   @|net\profmorin\emerald\lib\Names.java|159|165|String|class|java.lang.String
+   @|net\profmorin\emerald\lib\Names.java|159|165|String|class|java.lang.String
+   @|net\profmorin\emerald\lib\Names.java|166|172|E_Item|field|net.profmorin.emerald.lib.Names|E_Item|
+   @|net\profmorin\emerald\lib\Names.java|233|239|String|class|java.lang.String
+   @|net\profmorin\emerald\lib\Names.java|233|239|String|class|java.lang.String
+   @|net\profmorin\emerald\lib\Names.java|240|254|TUTORIAL_BLOCK|field|net.profmorin.emerald.lib.Names|TUTORIAL_BLOCK|
+Class End  : net.profmorin.emerald.lib.Names
+endProcessing "net\profmorin\emerald\lib\Names.java"
+

@@ -1,0 +1,6 @@
+{
+  "parent": "emerald_wares:block/tutorial_block",
+  "textures": {
+    "layer0": "emerald_wares:blocks/tutorial_block"
+  }
+}

@@ -1,0 +1,26 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "net\profmorin\emerald\ClientProxy.java" md5: 65e9f1f4743476c984748e3c8aba2ad5
+endProcessing "net\profmorin\emerald\ClientProxy.java"
+
+startProcessing "net\profmorin\emerald\CommonProxy.java" md5: 6f02100c9a246e4fade3f788a34ba4a5
+endProcessing "net\profmorin\emerald\CommonProxy.java"
+
+startProcessing "net\profmorin\emerald\EmeraldWares.java" md5: d0a5b8cf70d5147b30786c3fddd126fc
+endProcessing "net\profmorin\emerald\EmeraldWares.java"
+
+startProcessing "net\profmorin\emerald\block\BlockTutorial.java" md5: 89918532b3a40dcc36a302f81c8eb794
+endProcessing "net\profmorin\emerald\block\BlockTutorial.java"
+
+startProcessing "net\profmorin\emerald\init\ModBlocks.java" md5: 35f99d2037b4db6d2e5bb9884fc904ef
+endProcessing "net\profmorin\emerald\init\ModBlocks.java"
+
+startProcessing "net\profmorin\emerald\init\ModItem.java" md5: daeb0fa7ac1943f6750e596c5c64da54
+endProcessing "net\profmorin\emerald\init\ModItem.java"
+
+startProcessing "net\profmorin\emerald\item\ItemEmerald.java" md5: 4fa65aca93909d121997225b3809761c
+endProcessing "net\profmorin\emerald\item\ItemEmerald.java"
+
+startProcessing "net\profmorin\emerald\lib\Names.java" md5: 896d705ee69d03280e9b71f14d80f262
+endProcessing "net\profmorin\emerald\lib\Names.java"
+

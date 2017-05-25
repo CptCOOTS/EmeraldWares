@@ -1,0 +1,12 @@
+[
+{
+  "modid": "emerald_wares",
+  "name": "Professor Morin's Emerald Wares",
+  "description": "Implementation of Emerald Tools and Armor for 1.11",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "nope.",
+  "authors": [ "Professor Morin" ],
+  "credits": "SilentChaos512's Tutorial"
+}
+]

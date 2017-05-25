@@ -1,0 +1,8 @@
+#Item
+
+item.emerald_wares:emerald_item.name=Emerald Item
+
+#Blocks
+tile.emerald_wares:tutorial_block.name=Tutorial Block
+
+itemGroup.emerald_wares:tab_emerald=Emerald Wares
