@@ -3,7 +3,9 @@ package net.profmorin.emerald.init;
 import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.util.ResourceLocation;
@@ -14,6 +16,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.profmorin.emerald.EmeraldWares;
 import net.profmorin.emerald.item.tool.ItemEmeraldAxe;
+import net.profmorin.emerald.item.tool.ItemEmeraldHelmet;
 import net.profmorin.emerald.item.tool.ItemEmeraldHoe;
 import net.profmorin.emerald.item.tool.ItemEmeraldPickaxe;
 import net.profmorin.emerald.item.tool.ItemEmeraldShovel;
@@ -23,13 +26,14 @@ import net.profmorin.emerald.lib.Names;
 public class ModItem {
 
 	public static ToolMaterial emerald_material= EnumHelper.addToolMaterial(EmeraldWares.RESOURCE_PREFIX + "material", 2, 600, 8.0f, 2.5f, 20);//Emerald Material for tools. May adjust later.
-	public static final ArmorMaterial emerald_arm = EnumHelper.addArmorMaterial(EmeraldWares.RESOURCE_PREFIX + "armmat", "", 25, new int[]{2,6,7,2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f); 
+	public static final ArmorMaterial emerald_arm = EnumHelper.addArmorMaterial(EmeraldWares.RESOURCE_PREFIX + "armmat", ":emerald_armor", 25, new int[]{2,6,7,2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f); 
 	
 	public static ItemEmeraldPickaxe emeraldPickaxe;
 	public static ItemEmeraldShovel emeraldShovel;
 	public static ItemEmeraldHoe emeraldHoe;
 	public static ItemEmeraldAxe emeraldAxe;
 	public static ItemEmeraldSword emeraldSword;
+	public static ItemEmeraldHelmet emeraldHelmet;
 	
 	public static void init() {
 		
@@ -38,8 +42,9 @@ public class ModItem {
 		emeraldHoe = register(new ItemEmeraldHoe(),Names.E_Hoe);
 		emeraldAxe = register(new ItemEmeraldAxe(),Names.E_Axe);
 		emeraldSword = register(new ItemEmeraldSword(),Names.E_Sword);
+		emeraldHelmet = register(new ItemEmeraldHelmet(),Names.E_Helmet);
 	}
-	
+
 	public static void initRecipes() {
 		
 		emeraldPickaxe.addRecipes();
@@ -47,6 +52,7 @@ public class ModItem {
 		emeraldHoe.addRecipes();
 		emeraldAxe.addRecipes();
 		emeraldSword.addRecipes();
+		emeraldHelmet.addRecipes();
 	}
 	
 	protected static <T extends Item> T register(T item, String name) {
@@ -65,6 +71,7 @@ public class ModItem {
 		registerModel(mesher, emeraldHoe, Names.E_Hoe);
 		registerModel(mesher, emeraldAxe, Names.E_Axe);
 		registerModel(mesher, emeraldSword, Names.E_Sword);
+		registerModel(mesher, emeraldHelmet, Names.E_Helmet);
 	}
 	
 	@SideOnly(Side.CLIENT) protected static void registerModel(ItemModelMesher mesher, Item item, String name) {
